@@ -5,7 +5,7 @@ Simply adds `rem-base` and `rem-calc` functions to LESS.
 ## Installation
 
 ```
-yarn add --dev "git@github.com:ovh-ux/less-plugin-remcalc.git"
+$ yarn add --dev "git+ssh://git@github.com:ovh-ux/less-plugin-remcalc.git"
 ```
 
 ## Usage
