@@ -1,9 +1,24 @@
 {
   "name": "less-plugin-remcalc",
   "description": " Simply adds rem-base and rem-calc functions to LESS",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "keywords": [
+    "less plugins",
+    "remcalc",
+    "rem-calc"
+  ],
   "main": "dist/plugin.js",
+  "engines": {
+    "node": ">=4"
+  },
   "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ovh-ux/less-plugin-remcalc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ovh-ux/less-plugin-remcalc/issues"
+  },
   "scripts": {
     "build": "webpack",
     "lint": "eslint lib",
@@ -19,6 +34,6 @@
     "eslint-config-airbnb-base": "^11.0.1",
     "eslint-plugin-import": "^2.2.0",
     "less": "^2.7.2",
-    "webpack": "^1.14.0"
+    "webpack": "^2.6.1"
   }
 }
