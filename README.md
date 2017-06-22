@@ -1,6 +1,6 @@
-![OVH component](githubBanner.png)
-
 # less-plugin-remcalc
+
+![OVH component](https://user-images.githubusercontent.com/3379410/27423240-3f944bc4-5731-11e7-87bb-3ff603aff8a7.png)
 
 Simply adds `rem-base` and `rem-calc` functions to LESS.
 
