@@ -7,7 +7,7 @@
     "remcalc",
     "rem-calc"
   ],
-  "main": "dist/plugin.js",
+  "main": "lib/index.js",
   "engines": {
     "node": ">=4"
   },
@@ -20,20 +20,14 @@
     "url": "https://github.com/ovh-ux/less-plugin-remcalc/issues"
   },
   "scripts": {
-    "build": "webpack",
     "lint": "eslint lib",
     "test": "node test"
   },
   "dependencies": {},
   "devDependencies": {
-    "babel-core": "^6.22.1",
-    "babel-loader": "^6.2.10",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-es2015": "^6.22.0",
     "eslint": "^3.13.1",
     "eslint-config-airbnb-base": "^11.0.1",
     "eslint-plugin-import": "^2.2.0",
-    "less": "^2.7.2",
-    "webpack": "^2.6.1"
+    "less": "^3.8.1"
   }
 }
